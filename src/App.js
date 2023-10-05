@@ -17,35 +17,35 @@ import Button from "@mui/material/Button";
 import Toolbar from "@mui/material/Toolbar";
 import { BasicForms } from './BasicForms';
 
-export const INITIAL_PRODUCTS =[
-  {
-    poster:"https://m.media-amazon.com/images/I/71yzJoE7WlL._SX522_.jpg",
-    name:"Apple iPhone 14 Pro Max (256 GB) - Deep Purple",
-    rating:4.5,
-    description:"48MP Main camera for up to 4x greater resolution Cinematic mode now in 4K Dolby Vision up to 30 fps Action mode for smooth, steady, handheld videos",
-    price:"1,43,990",
-    category:"Electronics",
-    trailer:"https://www.youtube.com/embed/WXHeyz7_9fc"
-  },
-  {
-    poster:"https://m.media-amazon.com/images/I/51uVckL1jRL._SY300_SX300_QL70_FMwebp_.jpg",
-    name:"Sony Bravia 164 cm (65 inches) 4K Ultra HD Smart LED Google TV KD-65X74K (Black)",
-    rating:4.8,
-    description:"Resolution: 4K Ultra HD (3840 x 2160) | Refresh Rate: 60 Hertz | 178 Degree wide viewing angle Connectivity: 3 HDMI ports to connect set top box, Blu Ray players, gaming console",
-    price:"75,990",
-    category:"Electronics",
-    trailer:"https://www.youtube.com/embed/TqK341a5qVM"
-  },
-  {
-    poster:"https://m.media-amazon.com/images/I/61MPGbBpC3L._UY679_.jpg",
-    name:"Veirdo® Oversized Baggy Fit Comfortable Pure Cotton Round Neck T-Shirt",
-    rating:4.0,
-    description:"Made from pure cotton for maximum comfort and breathability.Trendy and fashionable oversized fit for a unique and stylish look.",
-    price:"600",
-    category:"T-shirts and Polos",
-    trailer:"https://www.youtube.com/embed/_rCIzoNB_xE"
-  }
-];
+// export const INITIAL_PRODUCTS =[
+//   {
+//     poster:"https://m.media-amazon.com/images/I/71yzJoE7WlL._SX522_.jpg",
+//     name:"Apple iPhone 14 Pro Max (256 GB) - Deep Purple",
+//     rating:4.5,
+//     description:"48MP Main camera for up to 4x greater resolution Cinematic mode now in 4K Dolby Vision up to 30 fps Action mode for smooth, steady, handheld videos",
+//     price:"1,43,990",
+//     category:"Electronics",
+//     trailer:"https://www.youtube.com/embed/WXHeyz7_9fc"
+//   },
+//   {
+//     poster:"https://m.media-amazon.com/images/I/51uVckL1jRL._SY300_SX300_QL70_FMwebp_.jpg",
+//     name:"Sony Bravia 164 cm (65 inches) 4K Ultra HD Smart LED Google TV KD-65X74K (Black)",
+//     rating:4.8,
+//     description:"Resolution: 4K Ultra HD (3840 x 2160) | Refresh Rate: 60 Hertz | 178 Degree wide viewing angle Connectivity: 3 HDMI ports to connect set top box, Blu Ray players, gaming console",
+//     price:"75,990",
+//     category:"Electronics",
+//     trailer:"https://www.youtube.com/embed/TqK341a5qVM"
+//   },
+//   {
+//     poster:"https://m.media-amazon.com/images/I/61MPGbBpC3L._UY679_.jpg",
+//     name:"Veirdo® Oversized Baggy Fit Comfortable Pure Cotton Round Neck T-Shirt",
+//     rating:4.0,
+//     description:"Made from pure cotton for maximum comfort and breathability.Trendy and fashionable oversized fit for a unique and stylish look.",
+//     price:"600",
+//     category:"T-shirts and Polos",
+//     trailer:"https://www.youtube.com/embed/_rCIzoNB_xE"
+//   }
+// ];
 
 export default function App() {
   const [productList,setProductList] = useState(INITIAL_PRODUCTS);

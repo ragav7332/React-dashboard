@@ -8,7 +8,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 export function ProductList() {
   const [productList,setProductList] = useState([]);
   const getProducts =() =>{
-    fetch("https://64ed6e1cf9b2b70f2bfb805a.mockapi.io/products",{
+    fetch("https://nodeserver-productapp.onrender.com/products",{
       method:"GET",
     })
     .then((res)=>res.json())
@@ -28,7 +28,7 @@ export function ProductList() {
            aria-label='delete'
            color='error'
            onClick={()=>{
-            fetch("https://64ed6e1cf9b2b70f2bfb805a.mockapi.io/products/"+ pd.id,{
+            fetch("https://nodeserver-productapp.onrender.com/products/"+ pd.id,{
               method:"DELETE"
             })
             // .then((res)=>res.json())

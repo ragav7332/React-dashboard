@@ -58,7 +58,7 @@ export function AddProduct() {
          category,
          price,
       }
-      fetch("https://64ed6e1cf9b2b70f2bfb805a.mockapi.io/products",{
+      fetch("https://nodeserver-productapp.onrender.com/products",{
         method:"POST",
         body: JSON.stringify(newproduct),
         headers:{

@@ -12,7 +12,7 @@ export function ProductDetailPage() {
   const navigate = useNavigate();
   const styles={margin:"0px 10px"} 
   const getProducts = ()=>{
-    fetch("https://64ed6e1cf9b2b70f2bfb805a.mockapi.io/products/"+id,{
+    fetch("https://nodeserver-productapp.onrender.com/products/"+id,{
       method:"GET",
     })
     .then((res)=>res.json())
